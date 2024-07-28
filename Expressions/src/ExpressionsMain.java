@@ -5,6 +5,7 @@ public class ExpressionsMain {
         // Operators = + - * / %
 
         int friends = 10;
+        double newFriends = 10;
 
         friends = friends + 1;
 
@@ -25,5 +26,21 @@ public class ExpressionsMain {
         friends = friends % 3;
 
         System.out.println(friends);
+
+        friends++;
+
+        System.out.println(friends);
+
+        friends--;
+
+        System.out.println(friends);
+
+        friends = friends / 2;
+
+        System.out.println(friends);
+
+        newFriends = (double)newFriends / 3;
+
+        System.out.println(newFriends);
     }
 }
