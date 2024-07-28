@@ -1,4 +1,4 @@
-public class App {
+public class VariablesMain {
     public static void main(String[] args) {
         int x; // Declaration
         x = 123; // Assignment
