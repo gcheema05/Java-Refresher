@@ -22,5 +22,8 @@ public class UserNameMain {
         System.out.println("\nHello " + name);
         System.out.println("You are " + age + " years old");
         System.out.println("You like " + food);
+
+        // Close the scanner
+        scanner.close();
     }
 }
